@@ -8,7 +8,7 @@ export default function AboutPhotographer() {
         {/* Left Column — Photographer Image */}
         <div className={styles.imageWrap}>
           <img
-            src={SOLO_PORTRAITS.DSC07136}
+            src="/owner.jpg"
             alt="Glenn - Professional Photographer with 20 years experience"
             className={styles.image}
             loading="lazy"
