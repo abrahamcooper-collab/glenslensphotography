@@ -1,0 +1,191 @@
+/* =============================================
+   REVIEWS GRID SECTION (REAL GOOGLE REVIEWS)
+   ============================================= */
+
+.section {
+  background: #FAF7F2;
+  padding: 100px 48px 120px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------- Header ---------- */
+.label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #a09488;
+  margin-bottom: 12px;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.2rem);
+  font-weight: 400;
+  color: #2c2420;
+  letter-spacing: -0.3px;
+  margin-bottom: 16px;
+}
+
+.heading em {
+  font-style: italic;
+}
+
+/* ---------- Google Badge ---------- */
+.googleBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 1px solid #E8E2D9;
+  border-radius: 50px;
+  padding: 8px 20px;
+  margin-bottom: 48px;
+  box-shadow: 0 4px 14px rgba(44, 36, 32, 0.04);
+}
+
+.googleIcon {
+  flex-shrink: 0;
+}
+
+.badgeText {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #2C2420;
+}
+
+/* ---------- Grid ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E8E2D9;
+  border-radius: 16px;
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(44, 36, 32, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(44, 36, 32, 0.08);
+  border-color: #9E7B66;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.stars {
+  color: #E6A100;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+.time {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: #8A8077;
+}
+
+.quote {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #3A3028;
+  border: none;
+  padding: 0;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid #F0EAE1;
+  padding-top: 16px;
+}
+
+.author {
+  font-family: var(--font-heading, "Playfair Display", serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2C2420;
+}
+
+.tag {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9E7B66;
+}
+
+/* ---------- GMB Link ---------- */
+.gmbWrap {
+  margin-top: 48px;
+}
+
+.gmbLink {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #2C2420;
+  text-decoration: none;
+  border-bottom: 1px solid #2C2420;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.gmbLink:hover {
+  color: #9E7B66;
+  border-color: #9E7B66;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 968px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 70px 24px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card {
+    padding: 24px 20px;
+  }
+}
