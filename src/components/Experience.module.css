@@ -1,0 +1,159 @@
+/* =============================================
+   THE EXPERIENCE SECTION (DARK THEME)
+   ============================================= */
+
+.section {
+  background: #1e1b18;
+  color: #ffffff;
+  padding: 100px 48px 120px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------- Header ---------- */
+.label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #8a8075;
+  margin-bottom: 14px;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.2rem);
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+  margin-bottom: 64px;
+}
+
+.heading em {
+  font-style: italic;
+}
+
+/* ---------- Steps Grid ---------- */
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  text-align: left;
+  margin-bottom: 64px;
+}
+
+.stepCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.numberRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.number {
+  font-family: var(--font-subheading);
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: italic;
+  color: #6a6056;
+  line-height: 1;
+}
+
+.stepArrow {
+  font-size: 0.9rem;
+  color: #4a423a;
+  margin-right: 12px;
+}
+
+.stepTitle {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e0dad3;
+}
+
+.stepDesc {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #b0a69c;
+  letter-spacing: 0.2px;
+}
+
+/* ---------- CTA Button ---------- */
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #1e1b18;
+  background: #ffffff;
+  padding: 16px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background: #eae4dc;
+  transform: translateY(-2px);
+}
+
+.arrow {
+  font-size: 0.85rem;
+  transition: transform 0.3s ease;
+}
+
+.cta:hover .arrow {
+  transform: translateX(3px);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 968px) {
+  .stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 24px;
+  }
+
+  .stepArrow {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 70px 24px;
+  }
+
+  .stepsGrid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+    margin-bottom: 48px;
+  }
+}

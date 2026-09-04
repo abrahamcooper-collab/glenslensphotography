@@ -1,0 +1,87 @@
+/* =============================================
+   TESTIMONIAL SECTION
+   ============================================= */
+
+.section {
+  background: #FAF7F2;
+  padding: 100px 24px;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ---------- Keywords Row ---------- */
+.keywords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.keyword {
+  font-family: var(--font-subheading);
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #a89a8a;
+  letter-spacing: 0.5px;
+}
+
+.dot {
+  margin-left: 12px;
+  font-style: normal;
+  color: #c5b9ab;
+  font-size: 1.2rem;
+}
+
+/* ---------- Quote ---------- */
+.quote {
+  font-family: var(--font-subheading);
+  font-size: 1.55rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #3a3028;
+  line-height: 1.65;
+  letter-spacing: 0.2px;
+  max-width: 600px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- Attribution ---------- */
+.attribution {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #a09488;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .section {
+    padding: 72px 24px;
+  }
+
+  .container {
+    gap: 24px;
+  }
+
+  .keyword {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 1.25rem;
+  }
+}

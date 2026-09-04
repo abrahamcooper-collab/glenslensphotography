@@ -1,0 +1,255 @@
+/* =============================================
+   FOOTER SECTION
+   ============================================= */
+
+.footer {
+  background: #1a1715;
+  color: #ffffff;
+  padding: 80px 48px 36px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ---------- Top Row (3 Columns) ---------- */
+.topRow {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1.2fr;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+
+/* Col 1: Brand */
+.colBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+.desc {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #a09488;
+  max-width: 320px;
+  letter-spacing: 0.2px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.iconCircle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0b6ac;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.iconCircle:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+}
+
+.colHeader a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.colHeader a:hover {
+  color: #ffffff;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.linkList a {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #c0b6ac;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 0.2px;
+}
+
+.linkList a:hover {
+  color: #ffffff;
+}
+
+.linkListTwoCol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.linkListTwoCol a {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #c0b6ac;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  letter-spacing: 0.2px;
+}
+
+.linkListTwoCol a:hover {
+  color: #ffffff;
+}
+
+/* Col 3: Contact Info */
+.colContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.contactList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #c0b6ac;
+  letter-spacing: 0.2px;
+}
+
+.contactList svg {
+  color: #8a8075;
+  flex-shrink: 0;
+}
+
+.contactList a {
+  color: #c0b6ac;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactList a:hover {
+  color: #ffffff;
+}
+
+/* ---------- Divider ---------- */
+.divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 28px;
+}
+
+/* ---------- Bottom Row ---------- */
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 300;
+  color: #8a8075;
+  letter-spacing: 0.3px;
+}
+
+.brandLink {
+  color: #a09488;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.brandLink:hover {
+  color: #ffffff;
+}
+
+.tagline {
+  color: #6a6056;
+}
+
+.upscalersCredit {
+  color: #8a8075;
+}
+
+.upscalersLink {
+  color: #c0b6ac;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.upscalersLink:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 968px) {
+  .topRow {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 60px 24px 28px;
+  }
+
+  .topRow {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    margin-bottom: 44px;
+  }
+
+  .bottomRow {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+}

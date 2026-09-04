@@ -1,0 +1,122 @@
+/* =============================================
+   FAQ SECTION (GOOD TO KNOW)
+   ============================================= */
+
+.section {
+  background: #FAF7F2;
+  padding: 100px 48px 120px;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------- Header ---------- */
+.label {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #a09488;
+  margin-bottom: 12px;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.2rem);
+  font-weight: 400;
+  color: #2c2420;
+  letter-spacing: -0.3px;
+  margin-bottom: 56px;
+}
+
+.heading em {
+  font-style: italic;
+}
+
+/* ---------- Accordion ---------- */
+.accordion {
+  border-top: 1px solid #eae1d5;
+  text-align: left;
+}
+
+.item {
+  border-bottom: 1px solid #eae1d5;
+  padding: 24px 0;
+  transition: background-color 0.2s ease;
+}
+
+.questionBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
+
+.questionText {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #2c2420;
+  letter-spacing: -0.2px;
+  transition: color 0.2s ease;
+}
+
+.questionBtn:hover .questionText {
+  color: #5c4e43;
+}
+
+.icon {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #a09488;
+  line-height: 1;
+}
+
+.answerText {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: #5c5048;
+  letter-spacing: 0.2px;
+  padding-top: 16px;
+  padding-right: 32px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .section {
+    padding: 70px 24px;
+  }
+
+  .item {
+    padding: 20px 0;
+  }
+
+  .questionText {
+    font-size: 1.05rem;
+  }
+}
