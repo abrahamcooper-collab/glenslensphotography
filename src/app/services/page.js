@@ -22,7 +22,7 @@ export default function ServicesIndexPage() {
         {/* Hero Banner */}
         <section className={styles.heroBanner}>
           <div className={styles.heroContent}>
-            <p className={styles.heroTag}>GLENNS LENS PHOTOGRAPHY</p>
+            <p className={styles.heroTag}><a href="https://www.google.com/maps/place/Glenns+lens+photography/@37.6800051,-122.0888935,10z/data=!3m1!4b1!4m6!3m5!1s0x23d39b3e706b8803:0x8cc87db98dcf937!8m2!3d37.6800051!4d-122.0888935!16s%2Fg%2F11zbdms_k0?hl=en&entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', textDecoration: 'none'}}>GLENNS LENS PHOTOGRAPHY</a></p>
             <h1 className={styles.heroTitle}>Our Photography Services</h1>
             <p className={styles.heroSubtitle}>
               Over 20 years of experience capturing real smiles, authentic love, and unforgettable Bay Area memories.
