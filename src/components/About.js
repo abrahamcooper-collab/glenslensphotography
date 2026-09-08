@@ -37,7 +37,7 @@ export default function About() {
             than simply documenting a pose.
           </p>
 
-          <a href="#contact" className={styles.cta}>
+          <a href="#meet-photographer" className={styles.cta}>
             <span>MEET YOUR PHOTOGRAPHER</span>
             <span className={styles.arrow}>→</span>
           </a>

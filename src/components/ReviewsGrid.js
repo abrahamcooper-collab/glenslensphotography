@@ -48,7 +48,7 @@ export default function ReviewsGrid() {
         {/* Header */}
         <p className={styles.label}>REAL GOOGLE REVIEWS</p>
         <h2 className={styles.heading}>
-          What clients say about <em>Glenns Lens.</em>
+          What clients say about <a href={GMB_LINK} target="_blank" rel="noopener noreferrer"><em>Glenns Lens.</em></a>
         </h2>
 
         {/* Google Badge Header */}

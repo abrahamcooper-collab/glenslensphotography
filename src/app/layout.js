@@ -22,7 +22,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Hayward Family & Portrait Photographer | Glenns Lens Photography",
+  title: "Glenns Lens Photography | Hayward Family & Portrait Photographer",
   description:
     "Authentic family & portrait photography in Hayward and the Bay Area. Natural, relaxed sessions that capture the moments you never want to forget. Book your session today.",
   keywords:
@@ -34,7 +34,7 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Hayward Family & Portrait Photographer | Glenns Lens Photography",
+    title: "Glenns Lens Photography | Hayward Family & Portrait Photographer",
     description:
       "Authentic family & portrait photography in Hayward and the Bay Area. Natural, relaxed sessions that capture the moments you never want to forget.",
     siteName: "Glenns Lens Photography",
