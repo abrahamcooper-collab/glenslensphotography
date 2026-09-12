@@ -25,6 +25,8 @@
   justify-content: space-between;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1001;
 }
 
 /* ---------- Logo ---------- */
@@ -256,23 +258,29 @@
   }
 
   .mobileMenu {
-    display: block;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.95);
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    background: #0d0b0a;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.4s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     z-index: 999;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 95px 24px 40px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
     gap: 16px;
   }
 
