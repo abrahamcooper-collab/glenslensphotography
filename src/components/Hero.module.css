@@ -27,6 +27,16 @@
   object-position: center;
 }
 
+/* Desktop landscape image — visible by default */
+.bgDesktop {
+  display: block;
+}
+
+/* Mobile portrait image — hidden by default */
+.bgMobile {
+  display: none;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
@@ -191,6 +201,21 @@
 @media (max-width: 768px) {
   .hero {
     min-height: 100svh;
+  }
+
+  /* Swap images: hide landscape, show portrait */
+  .bgDesktop {
+    display: none;
+  }
+
+  .bgMobile {
+    display: block;
+  }
+
+  /* Portrait image: show full content, no side-cropping */
+  .bgMobile img {
+    object-fit: cover;
+    object-position: center top;
   }
 
   .content {

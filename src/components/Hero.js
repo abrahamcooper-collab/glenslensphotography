@@ -4,11 +4,21 @@ import styles from "./Hero.module.css";
 export default function Hero() {
   return (
     <section className={styles.hero} id="home">
-      {/* Background Image */}
-      <div className={styles.bgImage}>
+      {/* Background Image — Desktop (landscape) */}
+      <div className={`${styles.bgImage} ${styles.bgDesktop}`}>
         <img
           src={cloudImg("family/DSC00245.jpg")}
           alt="Beautiful family photography session by Glenns Lens Photography in the Bay Area"
+          loading="eager"
+        />
+        <div className={styles.overlay}></div>
+      </div>
+
+      {/* Background Image — Mobile (portrait) */}
+      <div className={`${styles.bgImage} ${styles.bgMobile}`}>
+        <img
+          src={cloudImg("family/DSC00365.jpg")}
+          alt="Family portrait session by Glenns Lens Photography"
           loading="eager"
         />
         <div className={styles.overlay}></div>
