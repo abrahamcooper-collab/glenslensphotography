@@ -5,6 +5,7 @@ import {
   PET,
   SWEET_16,
   LANDSCAPE,
+  FLORAL,
 } from "./images";
 
 export const SERVICES_DATA = {
@@ -405,6 +406,88 @@ export const SERVICES_DATA = {
       {
         q: "How can I purchase fine art prints for my home or office?",
         a: "Contact us directly through our quote form or email to select your preferred image, print medium (canvas, metal, paper), and framing options.",
+      },
+    ],
+  },
+
+  "floral-photography": {
+    slug: "floral-photography",
+    title: "Floral Photography",
+    subtitle: "Artistic botanical, garden, and floral photography capturing fine art nature and bloom aesthetics.",
+    heroImage: FLORAL.DSC09849,
+    tagline: "Fine art botanical portraits & vibrant floral imagery",
+    description:
+      "Fine art botanical, garden, and floral photography in the Bay Area. Glenn brings out the rich colors, delicate textures, and natural elegance of nature's finest blooms with over 20 years of photographic expertise.",
+    features: [
+      {
+        title: "Macro & Fine Art Detail",
+        desc: "Precision focus and artistic lighting that highlights every delicate petal, texture, and natural color depth.",
+      },
+      {
+        title: "Garden & Outdoor Settings",
+        desc: "On-location shoots at East Bay botanical gardens, regional parks, and private floral displays.",
+      },
+      {
+        title: "Vibrant Color Grading",
+        desc: "Professional color editing ensuring rich, true-to-life tones perfect for fine art wall decor.",
+      },
+      {
+        title: "Custom Prints & Commercial Use",
+        desc: "Tailored creative compositions available for fine art prints, botanical decor, and commercial licensing.",
+      },
+    ],
+    gallery: [
+      FLORAL.DSC09643,
+      FLORAL.DSC09653,
+      FLORAL.DSC09656,
+      FLORAL.DSC09679,
+      FLORAL.DSC09686,
+      FLORAL.DSC09689,
+      FLORAL.DSC09701,
+      FLORAL.DSC09705,
+      FLORAL.DSC09712,
+      FLORAL.DSC09714,
+      FLORAL.DSC09727,
+      FLORAL.DSC09866,
+      FLORAL.DSC09879,
+    ],
+    packages: [
+      {
+        name: "Botanical Mini Session",
+        price: "$300",
+        duration: "45 Minutes",
+        includes: [
+          "1 Scenic botanical or garden location",
+          "15+ Edited high-resolution photos",
+          "Private online digital gallery",
+          "High-res download & print release",
+        ],
+      },
+      {
+        name: "Fine Art Floral Collection",
+        price: "$475",
+        duration: "90 Minutes",
+        includes: [
+          "Multiple garden areas or custom floral displays",
+          "35+ Edited high-resolution photos",
+          "Private online digital gallery",
+          "High-res download & full print release",
+          "Commercial & print usage permissions",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Where do floral photography sessions take place?",
+        a: "We capture floral photography at scenic Bay Area botanical gardens, local arboretums, regional parks, or custom floral arrangements.",
+      },
+      {
+        q: "Can I order high-resolution fine art prints of floral photos?",
+        a: "Yes! High-resolution digital files and physical canvas or metal prints are available for home or commercial space decoration.",
+      },
+      {
+        q: "How long does it take to receive the edited photo gallery?",
+        a: "Your retouched digital gallery will be ready within 10 to 14 business days.",
       },
     ],
   },

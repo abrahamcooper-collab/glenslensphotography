@@ -17,6 +17,7 @@ const SERVICES_ITEMS = [
   { label: "Sweet 16 Photography", href: "/services/sweet-16-photography" },
   { label: "Graduation Photography", href: "/services/graduation-photography" },
   { label: "Landscape Photography", href: "/services/landscape-photography" },
+  { label: "Floral Photography", href: "/services/floral-photography" },
 ];
 
 const SERVICE_AREAS_ITEMS = [

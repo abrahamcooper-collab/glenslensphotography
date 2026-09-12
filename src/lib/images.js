@@ -81,3 +81,22 @@ export const LANDSCAPE = {
   DSC05290: `${CLOUD_BASE}/glenslensphotography/services/landscape/drive-download-20260902T111703Z-1-001/DSC05290.jpg`,
   DSC05496: `${CLOUD_BASE}/glenslensphotography/services/landscape/drive-download-20260902T111703Z-1-001/DSC05496.jpg`,
 };
+
+// ── Floral Photography ──
+export const FLORAL = {
+  DSC09643: "/images/services/floral/DSC09643.JPG",
+  DSC09653: "/images/services/floral/DSC09653.JPG",
+  DSC09656: "/images/services/floral/DSC09656.JPG",
+  DSC09679: "/images/services/floral/DSC09679.JPG",
+  DSC09686: "/images/services/floral/DSC09686.JPG",
+  DSC09689: "/images/services/floral/DSC09689.JPG",
+  DSC09701: "/images/services/floral/DSC09701.JPG",
+  DSC09705: "/images/services/floral/DSC09705.JPG",
+  DSC09712: "/images/services/floral/DSC09712.JPG",
+  DSC09714: "/images/services/floral/DSC09714.JPG",
+  DSC09727: "/images/services/floral/DSC09727.JPG",
+  DSC09849: "/images/services/floral/DSC09849.JPG",
+  DSC09866: "/images/services/floral/DSC09866.JPG",
+  DSC09879: "/images/services/floral/DSC09879.JPG",
+};
+
