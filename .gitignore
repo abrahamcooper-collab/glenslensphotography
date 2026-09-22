@@ -40,7 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# heavy media assets
-public/images
-images/
+# raw camera files
+*.ARW
+*.arw
+
 
