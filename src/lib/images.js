@@ -36,6 +36,24 @@ export const ENGAGEMENT = {
   DSC06296: `${IK_BASE}/engagement_photography/DSC06296.jpg`,
   DSC08104: `${IK_BASE}/engagement_photography/DSC08104.JPG`,
   IMG_4589: `${IK_BASE}/engagement_photography/IMG_4589-2.jpg`,
+  // New additions
+  DSC00655: `${IK_BASE}/engagement_photography/DSC00655.JPG`,
+  DSC00682: `${IK_BASE}/engagement_photography/DSC00682.JPG`,
+  DSC00746: `${IK_BASE}/engagement_photography/DSC00746.JPG`,
+  DSC00813: `${IK_BASE}/engagement_photography/DSC00813.JPG`,
+  DSC00878: `${IK_BASE}/engagement_photography/DSC00878.JPG`,
+  DSC00923: `${IK_BASE}/engagement_photography/DSC00923.JPG`,
+  DSC00934: `${IK_BASE}/engagement_photography/DSC00934.JPG`,
+  DSC00973_2: `${IK_BASE}/engagement_photography/DSC00973_2.JPG`,
+  DSC01261: `${IK_BASE}/engagement_photography/DSC01261.JPG`,
+  DSC01666: `${IK_BASE}/engagement_photography/DSC01666.JPG`,
+  DSC01970: `${IK_BASE}/engagement_photography/DSC01970.JPG`,
+  DSC02039: `${IK_BASE}/engagement_photography/DSC02039.JPG`,
+  DSC02261_2: `${IK_BASE}/engagement_photography/DSC02261_2.JPG`,
+  DSC02597: `${IK_BASE}/engagement_photography/DSC02597.JPG`,
+  DSC02813: `${IK_BASE}/engagement_photography/DSC02813.JPG`,
+  DSC03079: `${IK_BASE}/engagement_photography/DSC03079.JPG`,
+  IMG_0002: `${IK_BASE}/engagement_photography/IMG_0002.JPG`,
 };
 
 // ── Pet Photography ──
