@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
+import { SITE } from "@/lib/images";
 import styles from "./Navbar.module.css";
 
 const GMB_LINK =
@@ -76,7 +77,7 @@ export default function Navbar() {
           className={styles.logo}
         >
           <img
-            src="/logo.png"
+            src={SITE.LOGO}
             alt="Glenns Lens Photography Logo"
             className={styles.logoImg}
           />

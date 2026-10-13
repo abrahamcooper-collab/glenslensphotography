@@ -1,4 +1,5 @@
 import { Playfair_Display, Cormorant_Garamond, Manrope } from "next/font/google";
+import { SITE } from "@/lib/images";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -28,9 +29,9 @@ export const metadata = {
   keywords:
     "family photographer Hayward, portrait photographer Bay Area, engagement photographer, pet photographer, graduation photographer, sweet 16 photographer, landscape photographer",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/favicon.ico",
-    apple: "/logo.png",
+    icon: SITE.LOGO,
+    shortcut: SITE.FAVICON,
+    apple: SITE.LOGO,
   },
   openGraph: {
     type: "website",

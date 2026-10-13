@@ -45,3 +45,19 @@ next-env.d.ts
 *.arw
 
 
+
+# images — every image is served from ImageKit (see src/lib/images.js);
+# originals stay on local disk only, upload with scripts/upload-dir-to-imagekit.mjs
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[jJ][fF][iI][fF]
+*.[pP][nN][gG]
+*.[wW][eE][bB][pP]
+*.[gG][iI][fF]
+*.[aA][vV][iI][fF]
+*.[hH][eE][iI][cC]
+*.[sS][vV][gG]
+*.[iI][cC][oO]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[bB][mM][pP]

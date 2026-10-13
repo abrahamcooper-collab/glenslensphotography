@@ -9,6 +9,13 @@ export function cloudImg(path) {
   return `${IK_BASE}/${path}`;
 }
 
+// ── Site assets (logo, favicon, owner photo) ──
+export const SITE = {
+  LOGO: `${IK_BASE}/site/logo.png`,
+  FAVICON: `${IK_BASE}/site/favicon.ico`,
+  OWNER: `${IK_BASE}/site/owner.jpg`,
+};
+
 // ── Family ──
 export const FAMILY = {
   DSC00245: `${IK_BASE}/family/DSC00245.jpg`,

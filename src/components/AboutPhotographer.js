@@ -1,4 +1,4 @@
-import { SOLO_PORTRAITS } from "@/lib/images";
+import { SITE, SOLO_PORTRAITS } from "@/lib/images";
 import styles from "./AboutPhotographer.module.css";
 
 export default function AboutPhotographer() {
@@ -8,7 +8,7 @@ export default function AboutPhotographer() {
         {/* Left Column — Photographer Image */}
         <div className={styles.imageWrap}>
           <img
-            src="/owner.jpg"
+            src={SITE.OWNER}
             alt="Glenn - Professional Photographer with 20 years experience"
             className={styles.image}
             loading="lazy"
