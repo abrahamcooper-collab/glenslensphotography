@@ -61,3 +61,6 @@ next-env.d.ts
 *.[tT][iI][fF]
 *.[tT][iI][fF][fF]
 *.[bB][mM][pP]
+
+# local-only upload tooling (contains credentials) — never commit
+/scripts/
