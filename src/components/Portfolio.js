@@ -24,6 +24,11 @@ const ITEMS = [
   { id: 2, category: "couples", src: ENGAGEMENT.DSC08104, alt: "Couples session outdoors" },
   { id: 3, category: "couples", src: ENGAGEMENT.IMG_4589, alt: "Romantic couples moment" },
   { id: 4, category: "couples", src: SOLO_PORTRAITS.DSC01771, alt: "Couples lifestyle photo shoot" },
+  { id: 25, category: "couples", src: ENGAGEMENT.DSC00655, alt: "Couples portrait session" },
+  { id: 26, category: "couples", src: ENGAGEMENT.DSC00682, alt: "Romantic couple outdoors" },
+  { id: 27, category: "couples", src: ENGAGEMENT.DSC00746, alt: "Couple golden hour portrait" },
+  { id: 28, category: "couples", src: ENGAGEMENT.DSC00923, alt: "Couple lifestyle shoot" },
+  { id: 29, category: "couples", src: ENGAGEMENT.DSC00934, alt: "Couple portrait Bay Area" },
 
   // Families
   { id: 5, category: "families", src: FAMILY.DSC00245, alt: "Family photo golden hour" },
@@ -36,6 +41,18 @@ const ITEMS = [
   { id: 10, category: "engagement", src: ENGAGEMENT.DSC06296, alt: "Engagement scenic trail" },
   { id: 11, category: "engagement", src: ENGAGEMENT.DSC06291, alt: "Engagement celebration" },
   { id: 12, category: "engagement", src: ENGAGEMENT.DSC08104, alt: "Save the date engagement photo" },
+  { id: 30, category: "engagement", src: ENGAGEMENT.DSC00813, alt: "Engagement portrait outdoors" },
+  { id: 31, category: "engagement", src: ENGAGEMENT.DSC00878, alt: "Romantic engagement session" },
+  { id: 32, category: "engagement", src: ENGAGEMENT.DSC00973_2, alt: "Engagement couple natural light" },
+  { id: 33, category: "engagement", src: ENGAGEMENT.DSC01261, alt: "Engagement golden hour" },
+  { id: 34, category: "engagement", src: ENGAGEMENT.DSC01666, alt: "Engagement portrait Bay Area" },
+  { id: 35, category: "engagement", src: ENGAGEMENT.DSC01970, alt: "Engagement shoot outdoors" },
+  { id: 36, category: "engagement", src: ENGAGEMENT.DSC02039, alt: "Engagement couple portrait" },
+  { id: 37, category: "engagement", src: ENGAGEMENT.DSC02261_2, alt: "Engagement milestone portrait" },
+  { id: 38, category: "engagement", src: ENGAGEMENT.DSC02597, alt: "Engagement park session" },
+  { id: 39, category: "engagement", src: ENGAGEMENT.DSC02813, alt: "Engagement couple sunset" },
+  { id: 40, category: "engagement", src: ENGAGEMENT.DSC03079, alt: "Engagement natural portrait" },
+  { id: 41, category: "engagement", src: ENGAGEMENT.IMG_0002, alt: "Engagement couple candid" },
 
   // Pet Photography
   { id: 13, category: "pets", src: PET.DSC00027, alt: "Playful dog portrait" },
